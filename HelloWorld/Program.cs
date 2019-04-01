@@ -21,13 +21,14 @@ namespace HelloWorld
             var v1 = Console.ReadLine();
             if (v1.ToUpper() == answer.ToUpper())
             {
-                Console.WriteLine("Correct!");
+                Console.WriteLine("Correct!!");
                 return true;
             }
             else
             {
                 Console.WriteLine("Wrong! It's " + answer);
                 return false;
+                
             }
         }
        
